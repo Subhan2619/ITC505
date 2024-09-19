@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>As You Like It - Scene I</title>
-    <style>
-                body {
+    <style>  
+        body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
@@ -20,6 +20,13 @@
         }
         .dialogue {
             margin-left: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+            background-color: #eaeaea;
+            border-top: 1px solid #ccc;
         }
     </style>
 </head>
@@ -38,37 +45,32 @@
     <p><span class="character">ORLANDO:</span> Go apart, Adam, and thou shalt hear how he will shake me up.</p>
     
     <p class="character">Enter OLIVER</p>
-
-    <p><span class="character">OLIVER:</span> Now, sir! what make you here?</p>
-    
-    <p><span class="character">ORLANDO:</span> Nothing: I am not taught to make any thing.</p>
-
-    <p><span class="character">OLIVER:</span> What mar you then, sir?</p>
-
-    <p><span class="character">ORLANDO:</span> Marry, sir, I am helping you to mar that which God made, a poor unworthy brother of yours, with idleness.</p>
-
-    <p><span class="character">OLIVER:</span> Marry, sir, be better employed, and be naught awhile.</p>
-
-    <p><span class="character">ORLANDO:</span> Shall I keep your hogs and eat husks with them? What prodigal portion have I spent, that I should come to such penury?</p>
-
-    <p><span class="character">OLIVER:</span> Know you where you are, sir?</p>
-
-    <p><span class="character">ORLANDO:</span> O, sir, very well; here in your orchard.</p>
-
-    <p><span class="character">OLIVER:</span> Know you before whom, sir?</p>
-
-    <p><span class="character">ORLANDO:</span> Ay, better than him I am before knows me. I know you are my eldest brother...</p>
-
-    <p><span class="character">ADAM:</span> Sweet masters, be patient: for your father's remembrance, be at accord.</p>
-
-    <p><span class="character">OLIVER:</span> Let me go, I say.</p>
-    
-    <p><span class="character">ORLANDO:</span> I will not, till I please: you shall hear me. My father charged you in his will to give me good education...</p>
-
-    <p class="character">Exeunt ORLANDO and ADAM</p>
-
-    <p><span class="character">OLIVER:</span> Is it even so? begin you to grow upon me? I will physic your rankness...</p>
 </div>
+
+<!--
+Addendum: Explanation of HTML Tags Used
+
+1. <!DOCTYPE html> - Declares the document type and version of HTML.
+2. <html lang="en"> - Root element specifying the language of the document.
+3. <head> - Contains meta-information about the document.
+4. <meta charset="UTF-8"> - Sets character encoding.
+5. <meta name="viewport" content="width=device-width, initial-scale=1.0"> - Ensures proper rendering on mobile devices.
+6. <title> - Sets the document title.
+7. <style> - Contains internal CSS for styling.
+8. <body> - Main content area of the document.
+9. <h1> and <h2> - Header tags for titles and subheadings.
+10. <p> - Defines paragraphs of text.
+11. <div> - Container for grouping elements.
+12. <span> - Inline container for styling text.
+13. <footer> - Represents the footer of the document.
+14. <script type="text/javascript"> - Contains JavaScript code.
+15. document.lastModified - Returns the date the document was last modified.
+16. document.getElementById('lastModified').textContent = x; - Updates footer with the last modified date.
+-->
+
+<p class="character">Exeunt ORLANDO and ADAM</p>
+
+<p><span class="character">OLIVER:</span> Is it even so? begin you to grow upon me? I will physic your rankness...</p>
 
 <p class="character">Enter DENNIS</p>
 
@@ -96,95 +98,18 @@
     <p class="character">Exeunt CHARLES</p>
 
     <p><span class="character">OLIVER:</span> Now will I stir this gamester: I hope I shall see an end of him...</p>
-
-
-1. <! DOCTYPE html> 
- 
- - Announces that the document is an HTML document and states the version of the HTML that has been used. In the document type declaration here, it says that the document type is HTML5. 
- 
- 2. <html lang="en"> 
- 
- - It is the main node of the HTML tree, also referred as the HTML document element. The lang attribute defines the language of the document and the value of it is en, while it means that the document is in English. 
- 
- 3. <head>
- 
- - Rectangular contains meta-information about the document it contains information like character set, viewport settings, title and internal CSS styles. 
- 
- 4. <meta charset="UTF-8">
- 
- - Used to define the character encoding for the document to be able to render a host of characters perfectly. 
- 
- 5. <meta name=”viewport” content=”width=device-width, initial-scale=1. 0”&gt;
- 
- - Its main purpose is to control viewport, size, and scale so that the page can be rendered correctly on a mobile device and for touch zooming. 
- 
- 6. <title>
- 
- - Sets the title of the document that is going to be displayed on the browser tab. 
- 
- 7. <style>
- 
- - Includes internal CSS which helps in styling of html elements. These are things such as, font properties, colors, margins, and layouts among others. 
- 
- 8. <body> 
- 
- - The second most important area of any document which contains all the components and elements meant to be seen and read by the viewer. 
- 
- 9. <h1> and <h2>
- 
- - Some of the page elements found in working with HTML included the header tags used in defining headings. The html code <b> <h1>is the largest title or main heading and, <h2> is the one which is comparatively smaller than h1 and is usually referred to as the subheading. 
- 
- 10. <p>
- 
- - Describes a piece of text, a paragraph. In this code, it is possible to find its usage both in the active dialogue of the characters and in the directions on the stage. 
-
- 11. <div>
- - A block level element, with all other elements going inside it, to which styles can be applied. Here it is used to differentiate between character’s dialogue to enhance appearance. 
- 
- 12. <span>
- - A container which is used to style a line of text within another line of text and contained within that line of text. In this case, it emphasizes the characters’ names. 
- 
- 13. <footer>
- - Community represents the footer of the document and includes such basic details as the Year of Copyright and the Last Update. 
- 
- 14. <script type="text/javascript">
- - Contains JavaScript code. In this case, it replaces the footer with the number of the time the given document was last modified. 
- 
- 15. document. lastModified
- - An HTML attribute which represents a JavaScript property that displays the date and time when the web document was last modified. This value is placed at the hoe end of the page. 
- 
- 16. document. getElementById('lastModified'). textContent = x;
- - JavaScript code that changes the text between the HTML tags with the attribute ID=lastModified to the last modified date. 
- 
- 
- - font-family: Arial, sans-serif;
- - Specifies the font of the document to be Arial for all types of devices while in case if Arial is not available then it will default to a standard sans-serif font. 
- 
- - line-height: 1. 6; 
- - Affects the quantity of space that appears between text lines to improve the rates of reading. 
- 
- - margin: 20px; 
- - Puts margins around the body content to avoid it to be too close to the edges of the viewport. 
- 
- - background-color: #f4f4f4;
- - Creates a light gray colouring for the background of the document. 
- 
- - .character and .dialogue classes
- - Applied in formatting character names (in bold and different color) as well as in applying left indentation of the dialogue for easy following of the narrative.
+</div>
 
 <footer>
-        <p>Last updated: 
-            <span id="lastModified"></span>
-        </p>
-    </footer>
-    <script type="text/javascript">
-         var x = document.lastModified;
-         document.getElementById('lastModified').textContent = x;
-    </script>
-</div>
+    <p>Last updated: 
+        <span id="lastModified"></span>
+    </p>
+</footer>
+
+<script type="text/javascript">
+    var x = document.lastModified;
+    document.getElementById('lastModified').textContent = x;
+</script>
 
 </body>
 </html>
- 
-
-
