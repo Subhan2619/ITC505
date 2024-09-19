@@ -5,16 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>As You Like It - Scene I</title>
     <style>
-        footer>
-        <p>Last updated: 
-            <span id="lastModified"></span>
-        </p>
-    </footer>
-    <script type="text/javascript">
-         var x = document.lastModified;
-         document.getElementById('lastModified').textContent = x;
-    </script>
-        body {
+                body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 20px;
@@ -110,7 +101,7 @@
 </body>
 </html>
 
-<!-- 
+
 1. <! DOCTYPE html> 
  
  - Announces that the document is an HTML document and states the version of the HTML that has been used. In the document type declaration here, it says that the document type is HTML5. 
@@ -169,7 +160,6 @@
  16. document. getElementById('lastModified'). textContent = x;
  - JavaScript code that changes the text between the HTML tags with the attribute ID=lastModified to the last modified date. 
  
- CSS Styles Explanation 
  
  - font-family: Arial, sans-serif;
  - Specifies the font of the document to be Arial for all types of devices while in case if Arial is not available then it will default to a standard sans-serif font. 
@@ -185,7 +175,16 @@
  
  - .character and .dialogue classes
  - Applied in formatting character names (in bold and different color) as well as in applying left indentation of the dialogue for easy following of the narrative.
--->
+
+<footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
 
  
 
