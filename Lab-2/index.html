@@ -21,6 +21,12 @@
         .dialogue {
             margin-left: 20px;
         }
+        .addendum {
+            margin-top: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color: #fff;
+        }
         footer {
             margin-top: 20px;
             padding: 10px;
@@ -51,7 +57,7 @@
 
 <p><span class="character">OLIVER:</span> Is it even so? begin you to grow upon me? I will physic your rankness...</p>
 
-<p class="character">Enter DENNIS</p> 
+<p class="character">Enter DENNIS</p>
 
 <div class="dialogue">
     <p><span class="character">DENNIS:</span> Calls your worship?</p>
@@ -79,27 +85,29 @@
     <p><span class="character">OLIVER:</span> Now will I stir this gamester: I hope I shall see an end of him...</p>
 </div>
 
-<!--
-Addendum: Explanation of HTML Tags Used
+<!-- Addendum Section -->
+<div class="addendum">
+    <h2>Addendum: Explanation of HTML Tags Used</h2>
+    <ol>
+        <li><strong>&lt;!DOCTYPE html&gt;</strong> - Declares the document type and version of HTML.</li>
+        <li><strong>&lt;html lang="en"&gt;</strong> - Root element specifying the language of the document.</li>
+        <li><strong>&lt;head&gt;</strong> - Contains meta-information about the document.</li>
+        <li><strong>&lt;meta charset="UTF-8"&gt;</strong> - Sets character encoding.</li>
+        <li><strong>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</strong> - Ensures proper rendering on mobile devices.</li>
+        <li><strong>&lt;title&gt;</strong> - Sets the document title.</li>
+        <li><strong>&lt;style&gt;</strong> - Contains internal CSS for styling.</li>
+        <li><strong>&lt;body&gt;</strong> - Main content area of the document.</li>
+        <li><strong>&lt;h1&gt; and &lt;h2&gt;</strong> - Header tags for titles and subheadings.</li>
+        <li><strong>&lt;p&gt;</strong> - Defines paragraphs of text.</li>
+        <li><strong>&lt;div&gt;</strong> - Container for grouping elements.</li>
+        <li><strong>&lt;span&gt;</strong> - Inline container for styling text.</li>
+        <li><strong>&lt;footer&gt;</strong> - Represents the footer of the document.</li>
+        <li><strong>&lt;script type="text/javascript"&gt;</strong> - Contains JavaScript code.</li>
+        <li><strong>document.lastModified</strong> - Returns the date the document was last modified.</li>
+        <li><strong>document.getElementById('lastModified').textContent = x;</strong> - Updates footer with the last modified date.</li>
+    </ol>
+</div>
 
-1. <!DOCTYPE html> - Declares the document type and version of HTML.
-2. <html lang="en"> - Root element specifying the language of the document.
-3. <head> - Contains meta-information about the document.
-4. <meta charset="UTF-8"> - Sets character encoding.
-5. <meta name="viewport" content="width=device-width, initial-scale=1.0"> - Ensures proper rendering on mobile devices.
-6. <title> - Sets the document title.
-7. <style> - Contains internal CSS for styling.
-8. <body> - Main content area of the document.
-9. <h1> and <h2> - Header tags for titles and subheadings.
-10. <p> - Defines paragraphs of text.
-11. <div> - Container for grouping elements.
-12. <span> - Inline container for styling text.
-13. <footer> - Represents the footer of the document.
-14. <script type="text/javascript"> - Contains JavaScript code.
-15. document.lastModified - Returns the date the document was last modified.
-16. document.getElementById('lastModified').textContent = x; - Updates footer with the last modified date.
--->
-    
 <footer>
     <p>Last updated: 
         <span id="lastModified"></span>
